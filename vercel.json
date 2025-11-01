@@ -1,7 +1,6 @@
-{
-  "functions": {
-    "api/**/*.ts": {
-      "runtime": "@vercel/node@3.0.0"
-    }
-  }
+"dependencies": {
+  "@vercel/node": "^4.0.0",
+  "mongodb": "^6.5.0",
+  "react": "^19.2.0",
+  "react-dom": "^19.2.0"
 }
