@@ -5,12 +5,20 @@
   "dependencies": {
     "mongodb": "^6.5.0",
     "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react-dom": "^19.2.0",
+    "@vercel/node": "^3.0.0"
   },
   "devDependencies": {
     "@types/node": "^20.12.7",
     "@types/react": "^18.2.79",
     "@types/react-dom": "^18.2.25",
     "typescript": "^5.4.5"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node api/index.js"
   }
 }
