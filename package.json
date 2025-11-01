@@ -2,12 +2,12 @@
   "name": "luau-script-protector",
   "version": "2.0.0",
   "private": true,
-  "dependencies": {
-    "mongodb": "^6.5.0",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0",
-    "@vercel/node": "^3.0.0"
-  },
+"dependencies": {
+  "@vercel/node": "^4.0.0",
+  "mongodb": "^6.5.0",
+  "react": "^19.2.0",
+  "react-dom": "^19.2.0"
+}
   "devDependencies": {
     "@types/node": "^20.12.7",
     "@types/react": "^18.2.79",
